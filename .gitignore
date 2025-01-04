@@ -2,3 +2,35 @@
 /Daten/*
 # Keep the folder, but ignore the files
 !/Daten/.gitkeep
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+env/
+.virtualenv/
+
+# Ignore configuration files
+*.env
+*.DS_Store
+Thumbs.db
+
+# Ignore outputs from Jupyter Notebooks (optional)
+*.out
+*.log
+
+# Ignore data files (optional)
+data/
+datasets/
+
+# Ignore temporary files
+*.tmp
+*.swp
+~$*
