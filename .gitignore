@@ -1,0 +1,4 @@
+# Ignore the data files of the project
+/Daten/*
+# Keep the folder, but ignore the files
+!/Daten/.gitkeep
