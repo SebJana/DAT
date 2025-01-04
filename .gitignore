@@ -3,6 +3,12 @@
 # Keep the folder, but ignore the files
 !/Daten/.gitkeep
 
+#Ignore csv
+prices_customers.csv
+
+#Ignore csv in main folder
+/*.csv
+
 # Ignore notebook checkpoints
 .ipynb_checkpoints/
 
